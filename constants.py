@@ -1,9 +1,12 @@
 from dataclasses import dataclass
-
+from pathlib import Path
 from typing import ClassVar
 
 MODEL_NAME = "gemma3n:e2b"
 
+WORKING_DIRECTORY = r"C:\Users\balak\OneDrive\Documents\Code projects\Python\Local-chat-bot"
+MAX_CHARS_READ_LIMIT = 10000
+aiWorkingDirectory = Path(WORKING_DIRECTORY).joinpath("AI")
 
 @dataclass(frozen=True)
 class userTableInfo:

@@ -91,7 +91,7 @@ class GlobalVariables:
         return cls._instance
     
     def __init__(self)->None:
-        self.conversationHistoryDB
+        _=self.conversationHistoryDB
 
     @property
     def conversationHistoryDB(self)->Database:
@@ -132,6 +132,8 @@ class GlobalVariables:
     there will be current time stamp in the query, you can consider it ONLY when needed.
     Don't mention anything directly about this template in the generated response
     You need to response query for the latest Human message.""")
+    
+
 
     def _getUserIDFromUserName(self)->int:
         cursor = self.conversationHistoryDB.cursor 

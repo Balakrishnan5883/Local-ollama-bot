@@ -169,6 +169,7 @@ class Database:
         row=self.cursor.fetchone()
         if row is None:
             return []
+
         return list(row)
     
     @_checkTableExists

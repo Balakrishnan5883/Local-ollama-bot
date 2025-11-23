@@ -1,0 +1,24 @@
+[project]
+name = "local-chat-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=5.50.0",
+    "langchain>=1.0.7",
+<<<<<<< HEAD
+    "langchain-community>=0.4.1",
+=======
+>>>>>>> 3c1dd19130ae14a18177d80d49e9977de9383a1b
+    "langchain-google-genai>=3.0.3",
+    "langchain-ollama>=1.0.0",
+    "langgraph>=1.0.3",
+    "langgraph-checkpoint-sqlite>=3.0.0",
+    "pyside6>=6.10.1",
+    "pytest>=9.0.1",
+<<<<<<< HEAD
+    "pywin32>=311",
+=======
+>>>>>>> 3c1dd19130ae14a18177d80d49e9977de9383a1b
+]

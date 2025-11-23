@@ -98,4 +98,4 @@ initialState = AgentState(
 )
 
 
-compiledGraph.invoke(initialState)
+compiledGraph.invoke(initialState) # pyright: ignore[reportUnknownMemberType]

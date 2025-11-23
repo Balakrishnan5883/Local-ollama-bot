@@ -2,3 +2,4 @@ langchain
 langgraph
 langchain-ollama
 langgraph-checkpoint-sqlite
+langchain-google-genai
